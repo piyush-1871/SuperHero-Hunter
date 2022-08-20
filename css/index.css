@@ -12,13 +12,12 @@ body{
 
 }
 
-/* nav bar */
-
-
+/* --nav bar-- */
 #navbar{
     
     background-color: rgba(3, 3, 3, 0.929);
     height: 4rem;
+    width: 100%;
 }
 #nav-content{
     list-style-type: none;
@@ -36,7 +35,7 @@ body{
 
 
 
-/* main*/
+/* --main--*/
 form{
     
     margin-top: 10vh;
@@ -70,7 +69,7 @@ form{
     color: white;   
 }
 
-
+/* --superhero container-- */
 #superhero-list{
     /* border: white solid 2px; */
     /* width: 100%; */
@@ -137,7 +136,7 @@ form{
     border: 2px red solid;
     color: white;  
 }
-
+/* --page title-- */
 #title{
     /* width: 4rem; */
     background-color: black;

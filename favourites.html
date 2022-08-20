@@ -17,6 +17,8 @@
     <title>Favourite</title>
 </head>
 <body>
+
+    <!-- navigation bar -->
     <nav id="navbar">
         <ul id="nav-content">
             <li><a href="./index.html">SUPERHERO</a></li>
@@ -24,13 +26,17 @@
         </ul>
     </nav>
 
+    <!-- title for page -->
+
     <div id="title">
         My Favourite Heroes!
     </div>
-
+<!-- container where superohero will show according to favourites -->
     <div id="superhero-list">
         <template id="template">
             <div id="superhero">
+
+                <!-- basic info -->
                 <div id="info">
                     <div id="name">
                         Name
@@ -42,7 +48,9 @@
                         Comics
                     </div>
                     <div id="buttons">
+                        <!-- button to remove from favourites -->
                         <button id="fav">Remove</button>
+                        <!-- button for directing to about page -->
                         <button id="more-info">More Info</button>
                     </div>
                 </div>
@@ -52,7 +60,7 @@
         </template>
     </div>
 
-
+<!-- script for favourite js -->
     <script src="./js/favourites.js"></script>
 </body>
 </html>

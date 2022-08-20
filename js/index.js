@@ -16,6 +16,8 @@ document.getElementById("form").addEventListener('keyup' , function(){
         display(data);  
     }
 });
+
+// for getting the url
 function getUrl(){
     var query = document.getElementById('search-character').value;
     console.log(query);
@@ -31,13 +33,9 @@ function getUrl(){
 let template = document.getElementById('template');
 let searchHero = document.getElementById('search-character').value;
 
-// if(searchHero == ""){
-//     window.alert('Type Your Hero!');
-// }
 
-var favId = 0;
-var favArray = [];
 
+// function to display the data
 function display(data){
     var superHeroList = document.getElementById('superhero-list');
     superHeroList.innerHTML = "";

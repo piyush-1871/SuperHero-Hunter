@@ -1,7 +1,7 @@
 var resultId = localStorage.getItem('id');
 
 fetch();
-
+// getting all the data of the superhero
 function fetch(){
     var xhrRequest = new XMLHttpRequest();
 
@@ -12,8 +12,6 @@ function fetch(){
         var response = JSON.parse(xhrRequest.response);
         console.log(response);
         document.getElementById('title').innerText = " " + response.data.results[0].name;
-        // var image = document.getElementById('image');
-        // image.setAttribute('src', response.thumbnail.path + 'jpg');
         var power = document.getElementById('power');
         var p = document.createElement('p');
         p.innerText = "Description : " + response.data.results[0].description;

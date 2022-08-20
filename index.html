@@ -16,24 +16,29 @@
     <title>SuperHeroes</title>
 </head>
 <body>
+
+    <!-- navigation bar -->
     <nav id="navbar">
         <ul id="nav-content">
             <li><a href="#">SUPERHERO</a></li>
             <li><a href="./favourites.html">FAVOURITES</a></li>
         </ul>
     </nav>
-
+<!-- form to search the characters -->
     <main >
         <form action="" method="get"  id="form">
             <input id="search-character" type="search" placeholder="Search Your Superhero">
             <!-- <button type="submit" id="search-hero">Search</button> -->
         </form>
     </main>
-
+<!-- container where superheroes will appear according to search -->
     <div id="superhero-list">
         <template id="template">
             <div id="superhero">
+                <!-- images are not available in the api -->
                 <!-- <img src="" alt="" id="image"> -->
+
+                <!-- basic info -->
                 <div id="info">
                     <div id="name"></div>
                     <div id="id">Race</div>
@@ -41,14 +46,16 @@
                     
                 </div>
                 <div id="buttons">
+                    <!-- add fav button -->
                     <button id="fav">Add to Favourite</button>
+                    <!-- button for directing to about page -->
                     <button id="more-info">More Info</button>
                 </div>
                 
             </div>
         </template>
     </div>
-    
+    <!-- script for index js -->
     <script src="./js/index.js"></script>
 </body>
 </html>
