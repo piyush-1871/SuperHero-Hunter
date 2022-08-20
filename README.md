@@ -8,7 +8,7 @@ I Have used the <a href="http://gateway.marvel.com/v1/public/comics?ts=1&apikey=
 
 I have used Javascript here with these methods named below
 * fetch url
-* then and catch
+* XMLHttpRequest
 * json stringyfy
 * localstorage
 * used array to store data
